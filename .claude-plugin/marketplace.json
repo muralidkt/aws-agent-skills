@@ -17,7 +17,9 @@
       "skills": [
         "./skills/aws-cost-analyser",
         "./skills/aws-iam-analyser",
-        "./skills/aws-resource-analyser"
+        "./skills/aws-resource-analyser",
+        "./skills/aws-bedrock-analyser",
+        "./skills/aws-security-analyser"
       ]
     }
   ]
