@@ -13,6 +13,8 @@ Compatible with [Claude Code](https://claude.ai/code), [Cursor](https://cursor.s
 | [aws-cost-analyser](skills/aws-cost-analyser/) | Analyze AWS costs in depth — service breakdown, EC2-Other drill-down, tag-based allocation, multi-account costs, usage type analysis, and cost trends |
 | [aws-resource-analyser](skills/aws-resource-analyser/) | Detect unused/idle resources, check tagging compliance, audit security posture, identify right-sizing opportunities, and track resource lifecycle |
 | [aws-iam-analyser](skills/aws-iam-analyser/) | Deep IAM security analysis — overly permissive policies, unused roles, cross-account trust, privilege escalation paths, SCPs, permission boundaries, Identity Center audit |
+| [aws-bedrock-analyser](skills/aws-bedrock-analyser/) | Analyze Bedrock usage and security — model access, provisioned throughput waste, guardrail coverage, knowledge bases, agents, invocation logging, per-model token consumption |
+| [aws-security-analyser](skills/aws-security-analyser/) | Security posture dashboard — GuardDuty threats, Security Hub compliance, CloudTrail audit, AWS Config rules, VPC Flow Logs, WAF review, KMS key policies, Secrets Manager rotation, certificate expiry, Macie findings |
 
 ## Installation
 
