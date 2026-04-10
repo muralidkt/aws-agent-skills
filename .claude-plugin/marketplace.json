@@ -1,0 +1,24 @@
+{
+  "name": "aws-agent-skills",
+  "owner": {
+    "name": "Murali",
+    "email": "muralidkt@gmail.com"
+  },
+  "metadata": {
+    "description": "AWS-focused agent skills for AI coding assistants",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "aws-agent-skills",
+      "description": "Collection of AWS analysis skills including cost analysis, resource auditing, and IAM security review",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/aws-cost-analyser",
+        "./skills/aws-iam-analyser",
+        "./skills/aws-resource-analyser"
+      ]
+    }
+  ]
+}

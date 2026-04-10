@@ -16,15 +16,22 @@ Compatible with [Claude Code](https://claude.ai/code), [Cursor](https://cursor.s
 
 ## Installation
 
-### Claude Code
+### Claude Code (Plugin)
+
+```bash
+# Add the marketplace
+/plugin marketplace add muralidkt/aws-agent-skills
+
+# Install all AWS skills
+/plugin install aws-agent-skills@aws-agent-skills
+```
+
+### Claude Code (Manual)
 
 **Global** (available in all projects):
 
 ```bash
-# Clone the repo
-git clone https://github.com/YOUR_USERNAME/aws-agent-skills.git /tmp/aws-agent-skills
-
-# Copy the skill you want
+git clone https://github.com/muralidkt/aws-agent-skills.git /tmp/aws-agent-skills
 cp -r /tmp/aws-agent-skills/skills/aws-cost-analyser ~/.claude/skills/aws-cost-analyser
 ```
 
@@ -44,12 +51,6 @@ cp -r /tmp/aws-agent-skills/skills/aws-cost-analyser .cursor/skills/aws-cost-ana
 
 ```bash
 cp -r /tmp/aws-agent-skills/skills/aws-cost-analyser .agents/skills/aws-cost-analyser
-```
-
-### Using Vercel Skills CLI
-
-```bash
-npx skills add ./path/to/skills
 ```
 
 ## Creating a New Skill
