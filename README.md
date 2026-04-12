@@ -55,6 +55,12 @@ cp -r /tmp/aws-agent-skills/skills/aws-cost-analyser .cursor/skills/aws-cost-ana
 cp -r /tmp/aws-agent-skills/skills/aws-cost-analyser .agents/skills/aws-cost-analyser
 ```
 
+## Example: Cost Optimisation Walkthrough
+
+See **[COST_OPTIMISATION_EXAMPLE.md](COST_OPTIMISATION_EXAMPLE.md)** for a real-world walkthrough combining `aws-cost-analyser` and `aws-resource-analyser` to investigate a $2,600 AWS bill spike — tracing it from a billing line item all the way to root cause and remediation.
+
+---
+
 ## Creating a New Skill
 
 1. Copy the template:
